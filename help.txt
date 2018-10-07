@@ -1,0 +1,6 @@
+module moduleA
+ {
+ exports pack1;//to export pack1 to all modules
+ exports pack1 to moduleA;// to export pack1 only for moduleA
+ exports pack1 to moduleA,moduleB;// to export pack1 for both moduleA,moduleB
+ }
